@@ -52,7 +52,7 @@ const ArticleSearch = () => {
       url += "top-headlines";
       params = {
         category: filters.category,
-        apiKey: "7ad61e5ef88a4e10964839f8b55b03a4",
+        apiKey: "867169c25d0c4bb4bc8e02a061f5c281",
         q: keyword,
         from: filters.date,
       };
@@ -60,7 +60,7 @@ const ArticleSearch = () => {
       url += "everything";
       params = {
         q: keyword,
-        apiKey: "7ad61e5ef88a4e10964839f8b55b03a4",
+        apiKey: "867169c25d0c4bb4bc8e02a061f5c281",
         from: filters.date,
       };
     }
